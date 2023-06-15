@@ -4,7 +4,14 @@ class assign6 extends Component{
     constructor(props){
         super(props);
 
+
     }
+
+    addrows = (e) =>{
+
+    }
+
+
 
     render(){
         return(
@@ -38,3 +45,5 @@ class assign6 extends Component{
         
     };
 }
+
+export default assign6;
