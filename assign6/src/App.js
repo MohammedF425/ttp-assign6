@@ -1,4 +1,6 @@
 import Assign6 from "./components/assign6";
+import TableRow from "./components/TableRow";
+import TableCell from "./components/TableCell";
 import './App.css';
 
 function App() {

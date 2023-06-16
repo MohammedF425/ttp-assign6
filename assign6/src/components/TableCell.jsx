@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 
  const TableCell = () => {
 
-    return(<span className="tableCell"></span>);
+    return(<td className="tableCell"></td>);
 
  }
 
