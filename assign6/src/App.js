@@ -1,10 +1,10 @@
-import assign6 from "./components/assign6";
+import Assign6 from "./components/assign6";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <assign6/>
+      <Assign6/>
     </div>
   );
 }
