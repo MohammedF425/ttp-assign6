@@ -1,0 +1,28 @@
+.add-button {
+    background-color: rgba(24, 114, 183, 0.524);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+.menu {
+  background-color: rgba(24, 114, 183, 0.524);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.heading {
+  font-size: 24px;
+  color: blue;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

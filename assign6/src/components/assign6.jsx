@@ -1,6 +1,7 @@
 import React, {useEffect, useRef, useState} from "react";
 import TableRow from "./TableRow";
 import TableCell from "./TableCell";
+import "./Styling.css";
 
 const Assign6 = () => {
     const [selectedColor, setSelectedColor] = useState('');
@@ -41,14 +42,23 @@ const Assign6 = () => {
     return(
         <div>
 
-            <h1>Cells</h1>
+            <h1
+                style={{
+                    fontSize: '60px',
+                    color: 'black',
+                    fontWeight: 'bold',
+                    marginBottom: '20px',
+                }}
+            >
+            Cells
+            </h1>
 
-            <button type="button" onClick = {addRows}>Add Rows</button>
-            <button type="button" onClick = {addCols}>Add Columms</button>
+            <button type="button" onClick = {addRows} className="add-button">Add Rows</button>
+            <button type="button" onClick = {addCols}className="add-button" >Add Columms</button>
             {/* <!-- <button type="button" onClick= {remRows}>Remove Rows</button>
             <button type="button" onClick= {remCols}>Remove Columns</button> 
             --> */}
-            <select id="color" onChange = {changeColor}>
+            <select id="color" onChange = {changeColor} className="menu">
             <option value ="">Default</option>
             <option value ="red">Red</option>
             <option value ="blue">Blue</option>
@@ -61,6 +71,7 @@ const Assign6 = () => {
                 <button id="clearAllCells" onclick="clearall">Clear All Cells</button>
             --> */}
             
+            <p></p>
             <table id='grid'>
             <tr>
             <td className="tableCell">Table</td>
