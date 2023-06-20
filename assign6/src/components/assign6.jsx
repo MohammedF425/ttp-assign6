@@ -62,7 +62,7 @@ const Assign6 = () => {
             // Cleanup function to remove event listeners
             tds.forEach((td) => {
                 td.removeEventListener('mouseup', handleMouseUp);
-                td.removeEventListener('mousedown', handleMouseDown);
+                td.removeEventListener('click', handleMouseDown);
                 td.removeEventListener('mouseover', handleMouseOver);
             });
 
